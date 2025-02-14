@@ -1,0 +1,19 @@
+
+http://127.0.0.1:8000/perlin/600/400/0/0/1
+accept: image/png
+
+###
+
+http://127.0.0.1:8000/perlin/800/600/0/0/1
+accept: image/png
+
+###
+
+http://127.0.0.1:8000/perlin/600/400/200/400/1
+accept: image/png
+
+###
+
+http://127.0.0.1:8000/perlin/600/400/0/0/5
+accept: image/png
+

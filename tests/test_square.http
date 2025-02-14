@@ -1,0 +1,33 @@
+# Tests for generation.basic.square
+
+GET http://127.0.0.1:8000/square/200/200/FFFFFFFF
+Accept: image/png
+
+###
+
+GET http://127.0.0.1:8000/square/4000/4000/FF0000FF
+Accept: image/png
+
+###
+
+GET http://127.0.0.1:8000/square/200/200/00FF00FF
+Accept: image/png
+
+###
+
+GET http://127.0.0.1:8000/square/200/200/0000FFFF
+Accept: image/png
+
+###
+
+# Expected response is 400
+GET http://127.0.0.1:8000/square/200/200/FFFFFFFFF
+Accept: image/png
+
+###
+
+# Expected response is 400
+GET http://127.0.0.1:8000/square/200/200/FFFFFFF
+Accept: image/png
+
+###

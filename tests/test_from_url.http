@@ -1,0 +1,8 @@
+
+GET http://127.0.0.1:8000/from_url/?url=https://i.ibb.co/tqtBwfH/Klein-Nishina.png
+Accept: image/png
+
+###
+
+GET http://127.0.0.1:8000/from_url/?url=https://placebear.com/200/200
+Accept: image/png
